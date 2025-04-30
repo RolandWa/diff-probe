@@ -80,7 +80,7 @@
   "project": {
     "files": [
       {
-        "name": "autoprobe.kicad_pcb",
+        "name": "autoprobe.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
