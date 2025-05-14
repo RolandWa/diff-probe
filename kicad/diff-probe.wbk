@@ -14,7 +14,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 1 10G 0",
+        ".ac dec 10 100k 100Meg",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -29,12 +29,18 @@
       },
       "measurements": [],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/OUT) (gain)",
+          "trace_type": 521
+        }
+      ]
     },
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1n 10m 0 1n uic",
+        ".tran 10n 1m 0 10n uic",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -47,9 +53,33 @@
         "right": 70,
         "top": 30
       },
-      "measurements": [],
+      "measurements": [
+        {
+          "expr": "RMS V(/POSIN)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/OUT)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/offset)",
+          "format": "3~V"
+        }
+      ],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/POSIN)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/offset)",
+          "trace_type": 257
+        }
+      ]
     }
   ],
   "user_defined_signals": [],

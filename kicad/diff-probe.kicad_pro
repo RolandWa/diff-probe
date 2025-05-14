@@ -531,7 +531,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Capacitor_SMD"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -714,8 +716,524 @@
         },
         {
           "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE",
+          "name": "CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (IMPERIAL)",
+          "name": "CASE CODE (IMPERIAL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (METRIC)",
+          "name": "CASE CODE (METRIC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE/PACKAGE",
+          "name": "CASE/PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLOR",
+          "name": "COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK10DESCRIPTION",
+          "name": "COMPONENTLINK10DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK10URL",
+          "name": "COMPONENTLINK10URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK11DESCRIPTION",
+          "name": "COMPONENTLINK11DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK11URL",
+          "name": "COMPONENTLINK11URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2DESCRIPTION",
+          "name": "COMPONENTLINK2DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2URL",
+          "name": "COMPONENTLINK2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK3DESCRIPTION",
+          "name": "COMPONENTLINK3DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK3URL",
+          "name": "COMPONENTLINK3URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK4DESCRIPTION",
+          "name": "COMPONENTLINK4DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK4URL",
+          "name": "COMPONENTLINK4URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK5DESCRIPTION",
+          "name": "COMPONENTLINK5DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK5URL",
+          "name": "COMPONENTLINK5URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK6DESCRIPTION",
+          "name": "COMPONENTLINK6DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK6URL",
+          "name": "COMPONENTLINK6URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK7DESCRIPTION",
+          "name": "COMPONENTLINK7DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK7URL",
+          "name": "COMPONENTLINK7URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK8DESCRIPTION",
+          "name": "COMPONENTLINK8DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK8URL",
+          "name": "COMPONENTLINK8URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK9DESCRIPTION",
+          "name": "COMPONENTLINK9DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK9URL",
+          "name": "COMPONENTLINK9URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONSTRUCTION",
+          "name": "CONSTRUCTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT PLATING",
+          "name": "CONTACT PLATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEPTH",
+          "name": "DEPTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIELECTRIC MATERIAL",
+          "name": "DIELECTRIC MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DISSIPATION FACTOR",
+          "name": "DISSIPATION FACTOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DOMINANT WAVELENGTH",
+          "name": "DOMINANT WAVELENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "name": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FAILURE RATE",
+          "name": "FAILURE RATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FEATURES",
+          "name": "FEATURES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FORWARD CURRENT",
+          "name": "FORWARD CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FORWARD VOLTAGE",
+          "name": "FORWARD VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT - SEATED (MAX)",
+          "name": "HEIGHT - SEATED (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ILLUMINATION COLOR",
+          "name": "ILLUMINATION COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD FREE",
+          "name": "LEAD FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD PITCH",
+          "name": "LEAD PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAKAGE CURRENT",
+          "name": "LEAKAGE CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LENGTH",
+          "name": "LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LENS STYLE",
+          "name": "LENS STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIFE (HOURS)",
+          "name": "LIFE (HOURS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LUMINOUS INTENSITY",
+          "name": "LUMINOUS INTENSITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER 1",
+          "name": "MANUFACTURER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER 2",
+          "name": "MANUFACTURER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER 3",
+          "name": "MANUFACTURER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER 4",
+          "name": "MANUFACTURER 4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER",
+          "name": "MANUFACTURER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER 1",
+          "name": "MANUFACTURER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER 2",
+          "name": "MANUFACTURER PART NUMBER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER 3",
+          "name": "MANUFACTURER PART NUMBER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER 4",
+          "name": "MANUFACTURER PART NUMBER 4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX OPERATING TEMPERATURE",
+          "name": "MAX OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX POWER DISSIPATION",
+          "name": "MAX POWER DISSIPATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MIN OPERATING TEMPERATURE",
+          "name": "MIN OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF ELEMENTS",
+          "name": "NUMBER OF ELEMENTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF LEDS",
+          "name": "NUMBER OF LEDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PINS",
+          "name": "NUMBER OF PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OHMS",
+          "name": "OHMS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE QUANTITY",
+          "name": "PACKAGE QUANTITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBER",
+          "name": "PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POLARITY",
+          "name": "POLARITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER DISSIPATION",
+          "name": "POWER DISSIPATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER RATING",
+          "name": "POWER RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICING 1",
+          "name": "PRICING 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RADIATION HARDENING",
+          "name": "RADIATION HARDENING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATINGS",
+          "name": "RATINGS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REACH SVHC COMPLIANT",
+          "name": "REACH SVHC COMPLIANT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RIPPLE CURRENT",
+          "name": "RIPPLE CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS COMPLIANT",
+          "name": "ROHS COMPLIANT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES",
+          "name": "SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STOCK 1",
+          "name": "STOCK 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 1",
+          "name": "SUPPLIER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 2",
+          "name": "SUPPLIER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 1",
+          "name": "SUPPLIER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 2",
+          "name": "SUPPLIER PART NUMBER 2",
           "show": false
         },
         {
@@ -755,10 +1273,82 @@
           "show": false
         },
         {
+          "group_by": false,
+          "label": "TERMINATION",
+          "name": "TERMINATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEST CURRENT",
+          "name": "TEST CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VIEWING ANGLE",
+          "name": "VIEWING ANGLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING",
+          "name": "VOLTAGE RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (DC)",
+          "name": "VOLTAGE RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WAVELENGTH",
+          "name": "WAVELENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WEIGHT",
+          "name": "WEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WIDTH",
+          "name": "WIDTH",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "dielectric",
+          "name": "dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "comment",
+          "name": "comment",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -806,7 +1396,7 @@
       "workbook_filename": "diff-probe.wbk"
     },
     "page_layout_descr_file": "kicad-embed://A4_template.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -819,6 +1409,10 @@
     "subpart_id_separator": 0
   },
   "sheets": [
+    [
+      "dc993883-c9c2-4104-bc94-6281e87aa16a",
+      "Power_supply"
+    ],
     [
       "e47adf3d-9c24-4345-80c9-66679cad107e",
       "Root"

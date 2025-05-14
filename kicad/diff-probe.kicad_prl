@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 3,
+    "active_layer": 2,
     "active_layer_preset": "Route",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -111,32 +111,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "diff-probe.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "diff-probe.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
