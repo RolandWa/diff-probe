@@ -1889,7 +1889,7 @@
 		)
 		(uuid "4047f952-2b69-4149-9181-72bebbb3b8f4")
 	)
-	(hierarchical_label "OUT_GND"
+	(hierarchical_label "GND"
 		(shape output)
 		(at 190.5 111.76 0)
 		(effects
@@ -1900,7 +1900,7 @@
 		)
 		(uuid "70eb32e0-1abb-4731-8f70-70e135cabe48")
 	)
-	(hierarchical_label "OUT_GND"
+	(hierarchical_label "GND"
 		(shape output)
 		(at 190.5 73.66 0)
 		(effects
@@ -1922,7 +1922,7 @@
 		)
 		(uuid "9c85012d-11b5-4060-b53f-fe33e317ad44")
 	)
-	(hierarchical_label "IN_GND"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 101.6 73.66 180)
 		(effects
@@ -1983,7 +1983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 150.495 119.38 0)
 			(effects
 				(font
@@ -1992,7 +1992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/f86dbf25808a64c8f6899aa01bdfadcb/SS12A_SER.pdf"
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 1A Schottky Barrier Rectifier Diode, SMB"
+		(property "Description" "40V 2A Schottky Barrier Rectifier Diode, SMB"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/a05ae3504cfc60ed89e3a57fb94acf5e/VIKING-NL.pdf"
+		(property "Datasheet" "~"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -2661,7 +2661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, NL05KTC4R7"
+		(property "Description" "Inductor"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/a05ae3504cfc60ed89e3a57fb94acf5e/VIKING-NL.pdf"
+		(property "Datasheet" "~"
 			(at 162.56 111.76 0)
 			(effects
 				(font
@@ -3040,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, NL05KTC4R7"
+		(property "Description" "Inductor"
 			(at 162.56 111.76 0)
 			(effects
 				(font
@@ -3726,7 +3726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 150.495 48.26 0)
 			(effects
 				(font
@@ -3735,7 +3735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/f86dbf25808a64c8f6899aa01bdfadcb/SS12A_SER.pdf"
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 1A Schottky Barrier Rectifier Diode, SMB"
+		(property "Description" "40V 2A Schottky Barrier Rectifier Diode, SMB"
 			(at 154.94 48.26 0)
 			(effects
 				(font

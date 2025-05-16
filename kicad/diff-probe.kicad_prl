@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "Route",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -47,8 +46,8 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00015155_aa0a0005",
-    "zone_display_mode": 1
+    "visible_layers": "00000000_00000000_00015155_aa00000d",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
@@ -113,8 +112,8 @@
   "project": {
     "files": [
       {
-        "name": "diff-probe.kicad_sch",
-        "open": true,
+        "name": "diff-probe.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -125,8 +124,8 @@
         }
       },
       {
-        "name": "diff-probe.kicad_pcb",
-        "open": false,
+        "name": "diff-probe.kicad_sch",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,

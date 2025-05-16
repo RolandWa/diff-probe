@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -570,7 +570,7 @@
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.508,
+        "track_width": 3.0,
         "via_diameter": 0.4572,
         "via_drill": 0.254
       },
@@ -578,8 +578,7 @@
         "name": "Diff_pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "bus_width": 12,
@@ -593,7 +592,7 @@
         "pcb_color": "rgb(0, 132, 0)",
         "priority": 2,
         "schematic_color": "rgb(0, 132, 0)",
-        "track_width": 0.508,
+        "track_width": 1.0,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
@@ -610,7 +609,7 @@
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 3,
         "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.508,
+        "track_width": 1.0,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
