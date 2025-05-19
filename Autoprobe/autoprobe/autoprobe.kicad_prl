@@ -39,7 +39,6 @@
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -83,12 +82,24 @@
         "name": "autoprobe.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
           "pos_x": -8,
           "pos_y": -8,
           "size_x": 1936,
-          "size_y": 1056
+          "size_y": 1168
+        }
+      },
+      {
+        "name": "autoprobe.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1168
         }
       }
     ]

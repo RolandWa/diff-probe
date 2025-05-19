@@ -959,7 +959,7 @@
 	)
 	(text "V in max 18V"
 		(exclude_from_sim no)
-		(at 107.95 105.41 0)
+		(at 101.6 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -979,7 +979,7 @@
 	)
 	(text "V in max 18V"
 		(exclude_from_sim no)
-		(at 107.95 34.29 0)
+		(at 101.6 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1006,6 +1006,26 @@
 			)
 		)
 		(uuid "c0dc56cf-83f4-4775-ad89-7ebd5904fed7")
+	)
+	(text_box "The AP3211 is a 1.4MHz fixed frequency, current mode, PWM buck (step-down) DC-DC converter, capable of driving a 1.5A load with high efficiency, excellent line and load regulation. "
+		(exclude_from_sim no)
+		(at 105.41 171.45 0)
+		(size 67.2841 12.1341)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "bed46d3a-0e3b-459c-bf7e-4d9067b7f3ba")
 	)
 	(junction
 		(at 133.35 73.66)

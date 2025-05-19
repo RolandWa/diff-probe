@@ -1,3 +1,6 @@
+[POPUPS]
+RestoreSessionPrompt=1
+RestoreSessionChoices=31
 [POWER_INTEGRITY]
 CapAutoGrouping=0
 ConvertLargePadsToAreas_Convert=1
@@ -23,10 +26,15 @@ IcCi=7.000000e-12
 EnableRigidFlex=0
 SyncCommonStackupLayers=1
 [VBP]
+Exist=1
 Thickness=3.175000e-05
+DrillCorrection=6.350000e-05
+Resistivity=1.724000e-08
 CndFilled=0
 Metal=Copper
-Resistivity=1.724000e-08
+UseDesignSource=1
+ViaDiamType=0
+EnablePerPadstack=0
 [BATCH]
 SiLRpt=
 SiLCsv=
@@ -119,6 +127,7 @@ AudType=3
 AudDC=0
 AudOpen=1
 [BATCH_SIM_SETTINGS]
+InclTraceCoupling=1
 TraceConsiderDistance=3.810000e-04
 MinTotalCoupledTraceLength=1.270000e-02
 TraceIgnoreShorterThan=2.540000e-03
@@ -177,6 +186,7 @@ FORCEUSER=0
 APAD=2.540000e-04
 ASEG=2.032000e-04
 [SI_SIM]
+InclTraceCoupling=0
 TraceConsiderDistance=3.810000e-04
 MinTotalCoupledTraceLength=1.270000e-02
 TraceIgnoreShorterThan=2.540000e-03
@@ -217,7 +227,7 @@ AggSwitchType=0
 SimTimeAuto=1
 SimTime=1.000000e-08
 MaxRoundRobinIterations=32
-SimEngineType=0
+SimEngineType=1
 SimEngineAuto=1
 SimTplanes=0
 SimResAuto=1
@@ -239,6 +249,7 @@ AllowSingleNets=1
 StitchViaSearchDist=3.048000e-03
 ReqObjClrance=2.540000e-04
 CouplingDistance=2.540000e-04
+MinFreq=1.000000e+06
 MaxFreq=2.000000e+10
 MatchPortMismatch=7.620000e-05
 SigViaMismatch=7.620000e-05
@@ -255,10 +266,3 @@ Folder=
 GenerateDiffPairs=1
 [MSG_HANDLER]
 Version=2
-[POPUPS]
-RestoreSessionPrompt=1
-RestoreSessionChoices=31
-[Eye Options]
-Height=5.000000e-01
-[DATA_MODE]
-PROMPTED=1

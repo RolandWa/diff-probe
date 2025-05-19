@@ -2334,7 +2334,7 @@
 		)
 	)
 	(text ".options method=gear chgtol=1e-11 reltol=0.01 rshunt=1G rseries=0.05 cshunt=1p trtol=1 abstol=10u"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(at 66.04 17.78 0)
 		(effects
 			(font
@@ -2345,7 +2345,7 @@
 	)
 	(text "Output 60mA, consumption up to 19mA"
 		(exclude_from_sim no)
-		(at 152.4 57.15 0)
+		(at 151.13 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2355,7 +2355,7 @@
 	)
 	(text "Simulate 50 Ohm, and 102 pF input of the scope and cable."
 		(exclude_from_sim no)
-		(at 149.86 149.86 0)
+		(at 149.86 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2384,6 +2384,45 @@
 			(justify left bottom)
 		)
 		(uuid "fd9e6fab-415a-4844-97ad-3b73f7d43a9f")
+	)
+	(text_box "https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf\n"
+		(exclude_from_sim no)
+		(at 12.6044 31.0459 0)
+		(size 88.1864 2.9958)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d249730-8687-46a1-aade-18af0f9e67e8")
+	)
+	(text_box "LT6230CS6 - use the voltage up to 12V\nOPA847 - use the 5V supplay"
+		(exclude_from_sim no)
+		(at 13.0175 22.6512 0)
+		(size 88.1864 7.0851)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e39056e-e917-4efa-8736-7bfd57c88ca8")
 	)
 	(junction
 		(at 199.39 68.58)
@@ -2416,6 +2455,12 @@
 		(uuid "258d9baf-a124-4586-acbf-86bb4f4d9b6e")
 	)
 	(junction
+		(at 106.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c124f07-75d7-480f-b6ef-6a418e9f8e2b")
+	)
+	(junction
 		(at 187.96 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2428,7 +2473,13 @@
 		(uuid "3e6f63f3-ab54-4cf0-8437-ed54de5c2a82")
 	)
 	(junction
-		(at 95.25 88.9)
+		(at 106.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bbd21ed-3c23-430e-817c-585f4272f3f8")
+	)
+	(junction
+		(at 78.74 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "516195b6-eff2-489d-a118-4eaa0c1af504")
@@ -2458,13 +2509,13 @@
 		(uuid "76cc9cbd-c5e9-4942-a522-f318af642c4a")
 	)
 	(junction
-		(at 67.31 81.28)
+		(at 50.8 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88cec62b-a2f8-4152-8032-e066b16efc7f")
 	)
 	(junction
-		(at 95.25 68.58)
+		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ae23a8d-b977-468d-8888-7c0141c1711c")
@@ -2482,7 +2533,7 @@
 		(uuid "8cc049b3-0f7b-4b74-af64-dfab74bebabf")
 	)
 	(junction
-		(at 35.56 100.33)
+		(at 35.56 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "902b661b-2801-4767-b48d-78fd4d3a2b33")
@@ -2494,7 +2545,7 @@
 		(uuid "9aa34f7a-e957-4ac1-86da-666119723590")
 	)
 	(junction
-		(at 106.68 78.74)
+		(at 90.17 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a17e49c4-20de-4696-9714-e894dfc7bf91")
@@ -2506,7 +2557,7 @@
 		(uuid "affed449-e40f-4a75-a50f-0b01ff3c55a7")
 	)
 	(junction
-		(at 95.25 78.74)
+		(at 78.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9072844-1394-4a43-a09d-f95ce0aac6ba")
@@ -2524,7 +2575,7 @@
 		(uuid "bcb41474-4db1-48c4-ace1-26f9bf6ea8c9")
 	)
 	(junction
-		(at 106.68 68.58)
+		(at 90.17 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf58dfe-184e-43f5-a1e2-98162972e40d")
@@ -2548,13 +2599,13 @@
 		(uuid "dc463df2-2692-4a08-9d95-1a693251e4f0")
 	)
 	(junction
-		(at 106.68 88.9)
+		(at 90.17 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e62084b8-e390-46da-a41c-f917d51792cc")
 	)
 	(junction
-		(at 77.47 54.61)
+		(at 60.96 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e741b422-097a-464e-80d1-52f7e48f6c5d")
@@ -2576,6 +2627,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6da8008-f257-411d-8e16-c2be491d34b2")
+	)
+	(junction
+		(at 106.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd51d9b-19cc-40fd-b447-cae8c68bd5c5")
 	)
 	(junction
 		(at 35.56 135.89)
@@ -2629,7 +2686,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 106.68 68.58)
+			(xy 106.68 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f9b5fb-63c5-4f50-9384-1debf6378da8")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 106.68 88.9)
+			(xy 78.74 88.9) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 67.31 68.58)
+			(xy 50.8 66.04) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 95.25 66.04)
+			(xy 78.74 68.58) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 63.5) (xy 77.47 54.61)
+			(xy 60.96 63.5) (xy 60.96 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 95.25 88.9)
+			(xy 78.74 91.44) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2839,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 120.65 78.74)
+			(xy 90.17 78.74) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 102.87) (xy 30.48 102.87)
+			(xy 20.32 106.68) (xy 30.48 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 100.33) (xy 35.56 111.76)
+			(xy 35.56 104.14) (xy 35.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 77.47 81.28)
+			(xy 60.96 71.12) (xy 60.96 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 91.44 54.61)
+			(xy 60.96 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 67.31 81.28)
+			(xy 60.96 81.28) (xy 50.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 67.31 54.61)
+			(xy 60.96 54.61) (xy 50.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 95.25 78.74)
+			(xy 71.12 78.74) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3016,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "5022e96b-aa22-4e5a-9f96-36b2d0fb4adf")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5188f399-5c1f-493e-81f3-e12b05fcd022")
 	)
 	(wire
 		(pts
@@ -3066,6 +3143,16 @@
 			(type default)
 		)
 		(uuid "5e1d4e75-f9a9-460f-bd67-f85d9d89aa6c")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee439fc-06e3-4667-a012-9f2674c9ffa1")
 	)
 	(wire
 		(pts
@@ -3179,7 +3266,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 102.87) (xy 30.48 135.89)
+			(xy 106.68 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebcf76a-e60a-4444-9ee4-b6c2a05db641")
+	)
+	(wire
+		(pts
+			(xy 30.48 106.68) (xy 30.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 87.63 100.33)
+			(xy 87.63 133.35) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 106.68 80.01)
+			(xy 90.17 78.74) (xy 90.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 76.2) (xy 67.31 81.28)
+			(xy 50.8 76.2) (xy 50.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 100.33) (xy 44.45 100.33)
+			(xy 35.56 104.14) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 106.68 88.9)
+			(xy 90.17 87.63) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 78.74) (xy 106.68 78.74)
+			(xy 78.74 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 91.44 68.58)
+			(xy 74.93 54.61) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 106.68 69.85)
+			(xy 90.17 68.58) (xy 90.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 121.92) (xy 35.56 135.89)
+			(xy 35.56 127) (xy 35.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 95.25 68.58)
+			(xy 74.93 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 100.33) (xy 35.56 100.33)
+			(xy 20.32 104.14) (xy 35.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 120.65 88.9)
+			(xy 90.17 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 106.68 78.74)
+			(xy 90.17 77.47) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3729,6 +3826,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d0e785-8844-4164-b0c4-a671b1868711")
+	)
+	(wire
+		(pts
 			(xy 218.44 116.84) (xy 218.44 123.19)
 		)
 		(stroke
@@ -3749,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 100.33) (xy 87.63 100.33)
+			(xy 52.07 104.14) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 81.28) (xy 67.31 82.55)
+			(xy 50.8 81.28) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3809,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f918411b-cbe5-4332-9329-6edd5ce4f4f2")
+	)
+	(wire
+		(pts
 			(xy 54.61 156.21) (xy 54.61 165.1)
 		)
 		(stroke
@@ -3819,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 120.65 68.58)
+			(xy 90.17 68.58) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3956,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 67.31 58.42)
+			(xy 106.68 78.74) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd926573-30d0-48be-b30b-5711fb689114")
+	)
+	(wire
+		(pts
+			(xy 50.8 54.61) (xy 50.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +4015,7 @@
 		(uuid "1c6e452a-3519-4b92-98f5-9c74f0717054")
 	)
 	(label "Pad_N"
-		(at 28.702 102.87 0)
+		(at 28.702 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3898,7 +4025,7 @@
 		(uuid "35505c17-306b-4361-9895-a67ced902f2d")
 	)
 	(label "IN_P"
-		(at 52.07 100.33 0)
+		(at 52.07 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +4035,7 @@
 		(uuid "363b8f67-740c-4671-ae42-143e2627bd6b")
 	)
 	(label "Pad_P"
-		(at 28.702 100.33 0)
+		(at 28.702 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3939,7 +4066,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 9b7a7e6a-bc96-4a8f-8aca-32fb321b1bfc)
+			(uuid a51eeb1d-f095-434a-b46c-8dcac77c1757)
 		)
 	)
 	(netclass_flag ""
@@ -3976,7 +4103,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 35.56 95.25 0)
+		(at 53.34 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3986,7 +4113,7 @@
 		)
 		(uuid "dcf14ce1-5f33-4987-a821-c475c027cc43")
 		(property "Netclass" "Diff_pair"
-			(at 36.2585 92.71 0)
+			(at 54.0385 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4122,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -48.26 7.62 0)
+			(at -30.48 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,8 +4136,8 @@
 		(at 182.88 29.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(uuid "014312b6-7293-4dee-a0d7-a5fe3ef2fb13")
 		(property "Reference" "J2"
@@ -5083,6 +5210,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\Users\\RWache\\OneDrive - Rockwell Automation, Inc\\Mrf data\\model\\OPA847.lib"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "OPA847_Model"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=Out 2=V- 3=+ 4=- 5=Dis 6=V+"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ec90e15e-f557-43b2-9a0a-601fef41e4bc")
 		)
@@ -5888,7 +6051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 82.55 0)
+		(at 50.8 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5896,7 +6059,7 @@
 		(dnp no)
 		(uuid "237d23b0-6cf1-4001-bb6e-34083761b225")
 		(property "Reference" "#PWR021"
-			(at 67.31 88.9 0)
+			(at 50.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +6068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.437 86.9442 0)
+			(at 50.927 86.9442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 82.55 0)
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 82.55 0)
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 82.55 0)
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6504,7 @@
 	)
 	(symbol
 		(lib_id "diff-probe-eagle-import:V+")
-		(at 95.25 63.5 0)
+		(at 78.74 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6350,7 +6513,7 @@
 		(fields_autoplaced yes)
 		(uuid "30fd19cc-dd08-4ddd-84cf-093d62583aef")
 		(property "Reference" "#P+01"
-			(at 95.25 63.5 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6522,7 @@
 			)
 		)
 		(property "Value" "V+"
-			(at 95.25 60.96 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6367,7 +6530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 63.5 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 63.5 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 63.5 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,6 +7882,319 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 106.68 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "459528d6-2cfb-477d-b10a-957642a7e583")
+		(property "Reference" "C20"
+			(at 110.49 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COLOR" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DOMINANT WAVELENGTH" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FORWARD CURRENT" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FORWARD VOLTAGE" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ILLUMINATION COLOR" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LENS STYLE" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LUMINOUS INTENSITY" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 3" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 4" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 1" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 3" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 4" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX POWER DISSIPATION" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ELEMENTS" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF LEDS" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OHMS" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER RATING" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST CURRENT" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VIEWING ANGLE" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WAVELENGTH" ""
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a80783-7a24-46a5-b1e2-d3e070d8d215")
+		)
+		(pin "2"
+			(uuid "07197651-0aa6-43a6-af74-ceeadba6f343")
+		)
+		(instances
+			(project "diff-probe"
+				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 46.99 135.89 90)
 		(unit 1)
@@ -8718,7 +9194,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 72.39 90)
+		(at 50.8 72.39 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8726,7 +9202,7 @@
 		(dnp no)
 		(uuid "57696c02-628d-4ee5-b16f-afa2702ed65e")
 		(property "Reference" "D3"
-			(at 71.12 72.7074 90)
+			(at 54.61 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +9211,7 @@
 			)
 		)
 		(property "Value" "OSM44008C1F"
-			(at 63.5 66.04 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_OptoSupply_OSXX4008C1F_4x1.4mm_Horizontal"
-			(at 67.31 72.39 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +9229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 72.39 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +9238,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 67.31 72.39 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +9247,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +9256,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +9265,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +9274,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +9283,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +9292,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +9301,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +9310,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +9319,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +9328,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +9337,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +9346,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +9355,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9364,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +9373,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9382,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +9391,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +9400,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9409,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +9418,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9427,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9436,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9445,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +9454,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9463,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9472,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9481,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 67.31 72.39 90)
+			(at 50.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +9490,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 72.39 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9828,7 @@
 	)
 	(symbol
 		(lib_id "diff-probe-eagle-import:HEADER-1X2CARD-EDGE")
-		(at 20.32 97.79 0)
+		(at 20.32 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9361,7 +9837,7 @@
 		(dnp no)
 		(uuid "5bb32dcb-8a97-4374-8a16-bc17822d4db3")
 		(property "Reference" "J1"
-			(at 24.13 97.155 0)
+			(at 24.13 100.965 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9370,7 +9846,7 @@
 			)
 		)
 		(property "Value" "HEADER-1X2CARD-EDGE"
-			(at 44.45 87.63 0)
+			(at 44.45 91.44 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9379,7 +9855,7 @@
 			)
 		)
 		(property "Footprint" "Library:CARD_EDGE_PADS-1X2"
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9406,7 +9882,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +9891,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9424,7 +9900,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,7 +9909,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,7 +9918,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9927,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9936,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9945,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9954,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9963,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9972,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9981,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9990,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9999,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +10008,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +10017,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +10026,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +10035,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +10044,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +10053,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +10062,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +10071,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +10080,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,7 +10089,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +10098,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +10107,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +10116,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 20.32 97.79 0)
+			(at 20.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,6 +10252,42 @@
 			)
 		)
 		(property "Description" "Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\RWache\\OneDrive - Rockwell Automation, Inc\\Mrf data\\model\\OPA847.lib"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "OPA847_Model"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=Out 2=V- 3=+ 4=- 5=Dis 6=V+"
 			(at 69.85 138.43 0)
 			(effects
 				(font
@@ -10270,16 +10782,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 95.25 83.82 0)
+		(at 78.74 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d879106-1716-4241-aaa1-13d91a01e8d6")
 		(property "Reference" "V4"
-			(at 99.06 82.4201 0)
+			(at 82.55 82.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +10800,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 99.06 84.9601 0)
+			(at 82.55 84.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +10809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10818,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +10827,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +10836,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +10845,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10854,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +10864,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10873,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +10882,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +10891,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10900,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10397,7 +10909,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10406,7 +10918,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10927,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10424,7 +10936,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +10945,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +10954,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +10963,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10972,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10981,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10990,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10999,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +11008,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +11017,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +11026,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +11035,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +11044,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +11053,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +11062,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +11071,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +11080,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +11089,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +11098,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 95.25 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11514,7 @@
 	)
 	(symbol
 		(lib_id "active_probe-altium-import:root_3_TWK107B7104MVHT")
-		(at 106.68 80.01 0)
+		(at 90.17 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11011,7 +11523,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ff14e6-605f-4608-91c6-9ae5f99eec91")
 		(property "Reference" "C5"
-			(at 110.49 82.5499 0)
+			(at 93.98 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11532,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 110.49 85.0899 0)
+			(at 93.98 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0306_0816Metric"
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +11550,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2303/TWK107B7104MVHT_SS.pdf"
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +11559,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 25V X7R 0306"
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,7 +11568,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11578,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11588,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "TWK107B7104MVHT"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11086,7 +11598,7 @@
 			)
 		)
 		(property "STOCK 1" "9611"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,7 +11608,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.31, 10=0.219, 50=0.153, 100=0.1312, 500=0.0984, 1000=0.08309 (USD)"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11618,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11628,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0306"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,7 +11638,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" "0306"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11648,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" "0816"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11658,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11668,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11678,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11688,7 @@
 			)
 		)
 		(property "CAPACITANCE" "100nF"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +11698,7 @@
 			)
 		)
 		(property "TOLERANCE" "20%"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11708,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11718,7 @@
 			)
 		)
 		(property "RATINGS" "AEC-Q200"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11728,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11738,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TWK107B7104MVHT&amp;fileName=TWK107B7104MVHT_SS&amp;mode=specSheetDownload&src-supplier=Digi-Key"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11748,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TWK107B7104MVHT&amp;fileName=TWK107B7104MVHT_SS&amp;mode=specSheetDownload&src-supplier=Digi-Key"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11758,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK107B7104MVHT &amp;u=M&src-supplier=Digi-Key"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,7 +11768,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK107B7104MVHT &amp;u=M&src-supplier=Digi-Key"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,7 +11778,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +11788,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "587-6181-1-ND"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11798,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "963-TWK107B7104MVHT"
-			(at 104.394 79.502 0)
+			(at 87.884 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,7 +11808,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2171054"
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11305,7 +11817,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,7 +11826,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11835,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11844,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11853,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11862,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11871,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11880,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,7 +11889,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11898,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,7 +11907,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11916,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11925,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11934,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11943,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11952,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11961,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11970,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11979,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11988,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11997,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +12006,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +12015,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +12024,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +12033,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11530,7 +12042,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +12051,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 106.68 80.01 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,16 +12719,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 95.25 73.66 0)
+		(at 78.74 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ba2435-447e-4ad0-9590-3c40d3a8ec93")
 		(property "Reference" "V3"
-			(at 99.06 72.2601 0)
+			(at 82.55 72.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +12737,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 99.06 74.8001 0)
+			(at 82.55 74.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,7 +12746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +12755,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12764,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12773,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12782,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12791,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12801,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12810,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12819,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12828,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,7 +12837,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +12846,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12855,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12864,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12873,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12882,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12891,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12900,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12909,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,7 +12918,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,7 +12927,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12424,7 +12936,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12433,7 +12945,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12954,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12963,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12972,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,7 +12981,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12478,7 +12990,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +12999,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +13008,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +13017,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +13026,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +13035,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 95.25 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13249,7 +13761,7 @@
 	)
 	(symbol
 		(lib_id "active_probe-altium-import:root_3_TWK107B7104MVHT")
-		(at 106.68 69.85 0)
+		(at 90.17 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13258,7 +13770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76f7a8f-801a-4c20-9a04-ea747fbde8be")
 		(property "Reference" "C6"
-			(at 110.49 72.3899 0)
+			(at 93.98 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13267,7 +13779,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 110.49 74.9299 0)
+			(at 93.98 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13276,7 +13788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0306_0816Metric"
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,7 +13797,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2303/TWK107B7104MVHT_SS.pdf"
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13806,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 25V X7R 0306"
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13815,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13825,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13323,7 +13835,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "TWK107B7104MVHT"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13845,7 @@
 			)
 		)
 		(property "STOCK 1" "9611"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +13855,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.31, 10=0.219, 50=0.153, 100=0.1312, 500=0.0984, 1000=0.08309 (USD)"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13865,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +13875,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0306"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13885,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" "0306"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13383,7 +13895,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" "0816"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,7 +13905,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13915,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,7 +13925,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,7 +13935,7 @@
 			)
 		)
 		(property "CAPACITANCE" "100nF"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13945,7 @@
 			)
 		)
 		(property "TOLERANCE" "20%"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13955,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,7 +13965,7 @@
 			)
 		)
 		(property "RATINGS" "AEC-Q200"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +13975,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +13985,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TWK107B7104MVHT&amp;fileName=TWK107B7104MVHT_SS&amp;mode=specSheetDownload&src-supplier=Digi-Key"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13483,7 +13995,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TWK107B7104MVHT&amp;fileName=TWK107B7104MVHT_SS&amp;mode=specSheetDownload&src-supplier=Digi-Key"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13493,7 +14005,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK107B7104MVHT &amp;u=M&src-supplier=Digi-Key"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,7 +14015,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TWK107B7104MVHT &amp;u=M&src-supplier=Digi-Key"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +14025,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +14035,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "587-6181-1-ND"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,7 +14045,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "963-TWK107B7104MVHT"
-			(at 104.394 69.342 0)
+			(at 87.884 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13543,7 +14055,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2171054"
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,7 +14064,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13561,7 +14073,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13570,7 +14082,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +14091,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +14100,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +14109,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13606,7 +14118,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +14127,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13624,7 +14136,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +14145,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +14154,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13651,7 +14163,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,7 +14172,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,7 +14181,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +14190,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +14199,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +14208,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +14217,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,7 +14226,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13723,7 +14235,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +14244,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13741,7 +14253,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13750,7 +14262,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +14271,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,7 +14280,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,7 +14289,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13786,7 +14298,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 106.68 69.85 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,7 +14323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 100.33 90)
+		(at 48.26 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13819,7 +14331,7 @@
 		(dnp no)
 		(uuid "b853d9ac-7829-468f-99ac-dc9996502e94")
 		(property "Reference" "R1"
-			(at 46.99 98.7425 0)
+			(at 46.99 102.5525 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13828,7 +14340,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 49.53 98.7425 0)
+			(at 49.53 102.5525 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13837,7 +14349,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,7 +14367,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,7 +14376,7 @@
 			)
 		)
 		(property "LCSC" "C25082"
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +14385,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +14394,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13891,7 +14403,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +14412,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +14421,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,7 +14430,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,7 +14439,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +14448,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13945,7 +14457,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +14466,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +14475,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13972,7 +14484,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13981,7 +14493,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13990,7 +14502,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13999,7 +14511,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14008,7 +14520,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,7 +14529,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14026,7 +14538,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14547,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +14556,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,7 +14565,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14062,7 +14574,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,7 +14583,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14080,7 +14592,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14089,7 +14601,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14098,7 +14610,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14619,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 48.26 100.33 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,7 +15994,7 @@
 	)
 	(symbol
 		(lib_id "diff-probe-eagle-import:V-")
-		(at 95.25 93.98 0)
+		(at 78.74 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15490,7 +16002,7 @@
 		(dnp no)
 		(uuid "d401a5e0-26ac-4af8-92d1-96a0ecd94015")
 		(property "Reference" "#P-01"
-			(at 95.25 93.98 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15499,7 +16011,7 @@
 			)
 		)
 		(property "Value" "V-"
-			(at 92.71 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15507,7 +16019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 93.98 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15516,7 +16028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 93.98 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15525,7 +16037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 93.98 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15547,7 +16059,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
-		(at 35.56 116.84 0)
+		(at 35.56 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15555,7 +16067,7 @@
 		(dnp no)
 		(uuid "de9ea5fd-373d-458b-b797-865a23766c15")
 		(property "Reference" "V1"
-			(at 39.37 114.1701 0)
+			(at 39.37 119.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,7 +16076,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 39.37 116.7101 0)
+			(at 39.37 121.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15573,7 +16085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15582,7 +16094,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15591,7 +16103,7 @@
 			)
 		)
 		(property "Description" "Voltage source, sinusoidal"
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15600,7 +16112,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15608,8 +16120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-			(at -21.59 118.11 0)
+		(property "Sim.Params" "dc=0 ampl=1 f=1k td=0 theta=0 phase=0 ac=1"
+			(at -21.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +16131,7 @@
 			)
 		)
 		(property "Sim.Type" "SIN"
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15628,7 +16140,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,7 +16150,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15647,7 +16159,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,7 +16168,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,7 +16177,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +16186,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,7 +16195,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,7 +16204,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +16213,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +16222,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +16231,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +16240,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +16249,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +16258,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +16267,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +16276,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,7 +16285,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +16294,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15791,7 +16303,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15800,7 +16312,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15809,7 +16321,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15818,7 +16330,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15827,7 +16339,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15836,7 +16348,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +16357,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +16366,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +16375,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +16384,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 35.56 116.84 0)
+			(at 35.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,8 +16412,8 @@
 		(at 234.95 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e6ddee-3a51-4deb-a5ad-f02dc59748c7")
@@ -16304,7 +16816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 67.31 0)
+		(at 60.96 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16313,7 +16825,7 @@
 		(fields_autoplaced yes)
 		(uuid "eac827be-ac50-4e5e-88de-a00e7054b925")
 		(property "Reference" "C10"
-			(at 81.28 66.0399 0)
+			(at 64.77 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16322,7 +16834,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 81.28 68.5799 0)
+			(at 64.77 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16331,7 +16843,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 78.4352 71.12 0)
+			(at 61.9252 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16340,7 +16852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16349,7 +16861,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,7 +16870,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,7 +16879,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16376,7 +16888,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16385,7 +16897,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16394,7 +16906,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16403,7 +16915,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16412,7 +16924,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16421,7 +16933,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,7 +16942,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16439,7 +16951,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16448,7 +16960,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16457,7 +16969,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16466,7 +16978,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16475,7 +16987,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16484,7 +16996,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16493,7 +17005,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16502,7 +17014,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +17023,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16520,7 +17032,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16529,7 +17041,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16538,7 +17050,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16547,7 +17059,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16556,7 +17068,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16565,7 +17077,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16574,7 +17086,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16583,7 +17095,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16592,7 +17104,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 77.47 67.31 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16617,7 +17129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 62.23 180)
+		(at 50.8 62.23 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16625,7 +17137,7 @@
 		(dnp no)
 		(uuid "ee859ef9-3b41-4cbf-8b49-19576a53a22a")
 		(property "Reference" "R26"
-			(at 61.9949 62.23 90)
+			(at 45.4849 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16633,7 +17145,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 64.77 62.23 90)
+			(at 48.26 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +17153,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 69.088 62.23 90)
+			(at 52.578 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +17162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 62.23 0)
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +17171,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 62.23 0)
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +17180,7 @@
 			)
 		)
 		(property "comment" "general purpose"
-			(at 67.31 62.23 0)
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16677,7 +17189,7 @@
 			)
 		)
 		(property "dielectric" "1%"
-			(at 67.31 62.23 0)
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16686,7 +17198,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16695,7 +17207,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16704,7 +17216,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16713,7 +17225,7 @@
 			)
 		)
 		(property "DOMINANT WAVELENGTH" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16722,7 +17234,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16731,7 +17243,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,7 +17252,7 @@
 			)
 		)
 		(property "ILLUMINATION COLOR" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,7 +17261,7 @@
 			)
 		)
 		(property "LENS STYLE" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,7 +17270,7 @@
 			)
 		)
 		(property "LUMINOUS INTENSITY" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16767,7 +17279,7 @@
 			)
 		)
 		(property "MANUFACTURER 1" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,7 +17288,7 @@
 			)
 		)
 		(property "MANUFACTURER 2" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,7 +17297,7 @@
 			)
 		)
 		(property "MANUFACTURER 3" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16794,7 +17306,7 @@
 			)
 		)
 		(property "MANUFACTURER 4" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16803,7 +17315,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +17324,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 2" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,7 +17333,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 3" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16830,7 +17342,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 4" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16839,7 +17351,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16848,7 +17360,7 @@
 			)
 		)
 		(property "NUMBER OF ELEMENTS" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16857,7 +17369,7 @@
 			)
 		)
 		(property "NUMBER OF LEDS" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16866,7 +17378,7 @@
 			)
 		)
 		(property "OHMS" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16875,7 +17387,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,7 +17396,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +17405,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16902,7 +17414,7 @@
 			)
 		)
 		(property "TEST CURRENT" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16911,7 +17423,7 @@
 			)
 		)
 		(property "VIEWING ANGLE" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16920,7 +17432,7 @@
 			)
 		)
 		(property "WAVELENGTH" ""
-			(at 67.31 62.23 90)
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,8 +17456,321 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 106.68 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f493976d-fa98-47d5-9a02-f6080673c313")
+		(property "Reference" "C21"
+			(at 110.49 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COLOR" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DOMINANT WAVELENGTH" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FORWARD CURRENT" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FORWARD VOLTAGE" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ILLUMINATION COLOR" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LENS STYLE" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LUMINOUS INTENSITY" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 1" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 3" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 4" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 1" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 3" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 4" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX POWER DISSIPATION" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ELEMENTS" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF LEDS" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OHMS" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER RATING" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST CURRENT" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VIEWING ANGLE" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WAVELENGTH" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "842dda20-b688-4529-9b13-158add868e96")
+		)
+		(pin "2"
+			(uuid "7df4b48a-7dca-4b5b-8470-7d44004c3108")
+		)
+		(instances
+			(project "diff-probe"
+				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 87.63 78.74 0)
+		(at 71.12 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16954,7 +17779,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc4c4381-0517-4c58-b711-07b22853f76e")
 		(property "Reference" "#PWR04"
-			(at 87.63 85.09 0)
+			(at 71.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +17788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 83.82 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +17796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +17805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,7 +17814,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

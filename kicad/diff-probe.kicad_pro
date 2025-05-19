@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.06
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|137669000|98621000|014e3f1e-3af2-479f-8939-69643ed9ce17|fe96660c-e37e-42b9-8554-83f7e07a4853",
+          ""
+        ],
+        [
+          "items_not_allowed|134366000|94379000|b02b6553-324b-46c7-ba38-adb44ca6ff03|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|135877757|99066446|b21462c7-12c4-41b0-ac55-569294115a95|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|136271000|98806000|372a0592-c3af-4b60-afd7-2f088803047a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|136818485|98494667|515d9693-7b47-4a7c-9de0-a4f81c1afd98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|137805146|98502968|014e3f1e-3af2-479f-8939-69643ed9ce17|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|138125200|98806000|eaa0a650-f0d3-4642-9908-251ef5152bf7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|173456828|97820966|a1d850ef-81f9-4a47-8fd9-2e3498aa52a7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|170942000|100216770|7f1ab582-6952-4b0d-af23-12dc28940c67|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|170942000|95757950|bea6ec88-b5d2-4341-ae08-ba6ed3c43bf3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|172573100|97986800|591b666f-29ba-4b2c-b0c7-9add8badfa67|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|173202600|97986800|a1d850ef-81f9-4a47-8fd9-2e3498aa52a7|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -254,12 +303,48 @@
     "ipc2581": {
       "dist": "",
       "distpn": "",
-      "internal_id": "Reference",
+      "internal_id": "",
       "mfg": "",
       "mpn": "Value"
     },
     "layer_pairs": [],
     "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          2,
+          25,
+          27,
+          29,
+          32,
+          34,
+          36,
+          38,
+          40,
+          44,
+          46,
+          48
+        ],
+        "name": "Bottom_Route",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
       {
         "activeLayer": -2,
         "flipBoard": false,
@@ -300,9 +385,53 @@
           "drc_warnings",
           "shapes"
         ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          25,
+          27,
+          31,
+          32,
+          34,
+          36,
+          38,
+          40,
+          44,
+          46,
+          48
+        ],
+        "name": "Top_Route",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
       }
     ],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 28552035.83063948,
+        "name": "Route",
+        "w": 59913099.445155874,
+        "x": 114461690.19374104,
+        "y": 76655982.08470362
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {

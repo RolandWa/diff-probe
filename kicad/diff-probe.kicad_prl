@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "Top_Route",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -46,7 +46,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00015155_aa00000d",
+    "visible_layers": "00000000_00000000_00015155_8a000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -108,31 +108,33 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "First.kicad_jobset"
+  ],
   "project": {
     "files": [
+      {
+        "name": "diff-probe.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1168
+        }
+      },
       {
         "name": "diff-probe.kicad_pcb",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
           "pos_x": -8,
           "pos_y": -8,
           "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "diff-probe.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
+          "size_y": 1168
         }
       }
     ]
