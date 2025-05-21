@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "Top_Route",
+    "active_layer": 5,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -44,9 +44,11 @@
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
+      "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00015155_8a000001",
+    "visible_layers": "00000000_00000000_00000002_220000a8",
     "zone_display_mode": 0
   },
   "git": {
@@ -117,24 +119,12 @@
         "name": "diff-probe.kicad_sch",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
           "pos_x": -8,
           "pos_y": -8,
           "size_x": 1936,
-          "size_y": 1168
-        }
-      },
-      {
-        "name": "diff-probe.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1168
+          "size_y": 1048
         }
       }
     ]

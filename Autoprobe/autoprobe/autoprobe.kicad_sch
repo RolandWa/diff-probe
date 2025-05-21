@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "83ee7cec-2048-4767-855b-9f2a0ce2b0d6")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -79,19 +81,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -112,8 +114,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -123,14 +125,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -206,10 +208,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -276,30 +281,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -320,8 +314,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -331,14 +325,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -432,10 +437,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -502,74 +510,19 @@
 			)
 			(symbol "Conn_01x09_1_1"
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
+					(start -1.27 11.43)
+					(end 1.27 -11.43)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 10.287)
+					(end 0 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -590,8 +543,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -601,14 +554,69 @@
 					)
 				)
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -11.43)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -774,9 +782,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -849,7 +860,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -861,7 +872,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -910,9 +921,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1031,6 +1045,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -1113,6 +1128,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Memory_EEPROM:M24C02-FMN"
 			(exclude_from_sim no)
@@ -1248,6 +1264,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "VSS"
@@ -1319,25 +1353,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1415,7 +1432,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1427,7 +1444,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1441,7 +1458,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1458,6 +1476,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-5V"
 			(power)
@@ -1523,7 +1542,8 @@
 			(symbol "-5V_0_0"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-5V"
 						(effects
 							(font
@@ -1554,6 +1574,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1633,7 +1654,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1650,7 +1672,75 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "https://electronicprojectsforfun.wordpress.com/using-the-keysight-autoprobe-interface-in-your-own-projects/hacking-keysight-autoprobe-eeproms/"
+		(exclude_from_sim no)
+		(at 95.25 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://electronicprojectsforfun.wordpress.com/using-the-keysight-autoprobe-interface-in-your-own-projects/hacking-keysight-autoprobe-eeproms/")
+		)
+		(uuid "136a92d1-8a1a-48cb-9f60-9b2854dd915d")
+	)
+	(text "pin 1 : +3V to +6V, depending on Rs\npin 2 : -3V to -6V, depending on Rs\npin 3 : Offset adjustment (-1mA to +1mA, voltage limited to +/-6V)\npin 4, 5, 6 : digital and analog probe recongition interfaces ; I2C interface (pin 4 = SDA and pin 6 = SCL) to which a 24C02 is wired at base address 0xA2\npin 7 : Rs, the probe connects this pin to GND through a resistor Rs = 10k, V=5V\npin 8 : -12V\npin 9 : +12V"
+		(exclude_from_sim no)
+		(at 20.32 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3020f68a-cbba-4270-b54d-ce7e91dbf7f8")
+	)
+	(text "Documentation comming from webside :\nhttps://electronicprojectsforfun.wordpress.com/using-the-keysight-autoprobe-interface-in-your-own-projects/hacking-keysight-autoprobe-eeproms/\nhttps://www.eevblog.com/forum/projects/agilent-probe-interface-(-autoprobe-and-probe-id)/?all\nThe probe pitch is 0.1\". the pogo pins are standard round head 0.1\" pogo pins"
+		(exclude_from_sim no)
+		(at 20.32 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "https://www.eevblog.com/forum/projects/agilent-probe-interface-(-autoprobe-and-probe-id)/?all")
+		)
+		(uuid "50bb185f-58fb-460d-a2ca-be36b886bf67")
+	)
+	(text "V+\nGND\nV-\nOffset"
+		(exclude_from_sim no)
+		(at 246.38 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a097798-c9ae-4057-943e-00ae149d9d56")
+	)
+	(text "Power interface to Probe"
+		(exclude_from_sim no)
+		(at 222.25 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b89e3db0-6d03-4d47-975b-c722be777872")
+	)
+	(text "Spy interface"
+		(exclude_from_sim no)
+		(at 226.06 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb9be027-2636-4591-b326-27596ebef43f")
 	)
 	(junction
 		(at 101.6 83.82)
@@ -2183,61 +2273,6 @@
 			(type default)
 		)
 		(uuid "fc416fc5-e41c-40d0-9b59-25e1b179fe68")
-	)
-	(text "pin 1 : +3V to +6V, depending on Rs\npin 2 : -3V to -6V, depending on Rs\npin 3 : Offset adjustment (-1mA to +1mA, voltage limited to +/-6V)\npin 4, 5, 6 : digital and analog probe recongition interfaces ; I2C interface (pin 4 = SDA and pin 6 = SCL) to which a 24C02 is wired at base address 0xA2\npin 7 : Rs, the probe connects this pin to GND through a resistor Rs = 10k, V=5V\npin 8 : -12V\npin 9 : +12V"
-		(exclude_from_sim no)
-		(at 20.32 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3020f68a-cbba-4270-b54d-ce7e91dbf7f8")
-	)
-	(text "Documentation comming from webside :\nhttps://electronicprojectsforfun.wordpress.com/using-the-keysight-autoprobe-interface-in-your-own-projects/hacking-keysight-autoprobe-eeproms/\nhttps://www.eevblog.com/forum/projects/agilent-probe-interface-(-autoprobe-and-probe-id)/?all\nThe probe pitch is 0.1\". the pogo pins are standard round head 0.1\" pogo pins"
-		(exclude_from_sim no)
-		(at 20.32 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50bb185f-58fb-460d-a2ca-be36b886bf67")
-	)
-	(text "V+\nGND\nV-\nOffset"
-		(exclude_from_sim no)
-		(at 246.38 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a097798-c9ae-4057-943e-00ae149d9d56")
-	)
-	(text "Power interface to Probe"
-		(exclude_from_sim no)
-		(at 222.25 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b89e3db0-6d03-4d47-975b-c722be777872")
-	)
-	(text "Spy interface"
-		(exclude_from_sim no)
-		(at 226.06 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb9be027-2636-4591-b326-27596ebef43f")
 	)
 	(global_label "SCL"
 		(shape input)
@@ -3631,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "22k"
 			(at 89.2611 100.33 90)
 			(effects
 				(font
@@ -3883,4 +3918,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

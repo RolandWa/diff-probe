@@ -1,0 +1,145 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "05eb9651-1323-4d8e-b778-73cfad555dc2",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "./plots",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "c9c073de-dcfd-4f02-bde3-fc0374fdd330",
+      "settings": {
+        "compress": false,
+        "description": "",
+        "drawing_sheet": "",
+        "field_bom_map.dist": "",
+        "field_bom_map.dist_pn": "",
+        "field_bom_map.internal_id": "",
+        "field_bom_map.mfg": "MANUFACTURER",
+        "field_bom_map.mfg_pn": "Value",
+        "output_filename": "output_IPC_2581.xml",
+        "precision": 6,
+        "units": "mm",
+        "version": "C"
+      },
+      "type": "pcb_export_ipc2581"
+    },
+    {
+      "description": "",
+      "id": "7212b4a7-f42d-413c-a18e-05b885dd1d0b",
+      "settings": {
+        "compression": "tgz",
+        "description": "",
+        "drawing_sheet": "",
+        "output_filename": "odb_pp.tgz",
+        "precision": 6,
+        "units": "mm"
+      },
+      "type": "pcb_export_odb"
+    },
+    {
+      "description": "",
+      "id": "4500918a-3fe8-4eb7-832a-047889bd6609",
+      "settings": {
+        "back_fp_property_popups": true,
+        "black_and_white": false,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu"
+        ],
+        "layers_to_include_on_all_layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.CrtYd",
+          "F.Cu",
+          "F.Mask",
+          "F.CrtYd",
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "pdf_gen_mode": "one-page-per-layer-one-file",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "single_document": true,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false
+      },
+      "type": "pcb_export_pdf"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "9d7936e4-5e24-4d36-9b51-dfa90ac17387",
+      "only": [],
+      "settings": {
+        "output_path": "C:\\Users\\RWache\\OneDrive - Rockwell Automation, Inc\\Simulation tools\\kicad_proj\\diff-probe\\kicad\\First\\"
+      },
+      "type": "folder"
+    }
+  ]
+}

@@ -14,10 +14,10 @@ Minor=1
 TermWizTol=0
 VICVi=1
 IVCCi=1
-XtF=0
+XtF=1
 XtE=0
 XtV=1.500000e-01
-XtGp=1.270000e-03
+XtGp=3.810000e-04
 XtCl=1.270000e-02
 IcSl=2.000000e-09
 IcSVR=3.000000e+00
@@ -186,14 +186,14 @@ FORCEUSER=0
 APAD=2.540000e-04
 ASEG=2.032000e-04
 [SI_SIM]
-InclTraceCoupling=0
+InclTraceCoupling=1
 TraceConsiderDistance=3.810000e-04
 MinTotalCoupledTraceLength=1.270000e-02
 TraceIgnoreShorterThan=2.540000e-03
 ConsiderLayersLimit=1
 ConsiderNetsNum=1
 InclSelfCoupling=1
-ArbitrayAngles=0
+ArbitrayAngles=1
 XtalkDataElectrical=0
 CrosstalkVoltage=1.500000e-01
 InclTraceToAreaCoupling=1
@@ -266,3 +266,5 @@ Folder=
 GenerateDiffPairs=1
 [MSG_HANDLER]
 Version=2
+[DATA_MODE]
+PROMPTED=1

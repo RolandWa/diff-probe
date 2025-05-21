@@ -1999,122 +1999,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "diff-probe-eagle-import:V+"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "V+"
-				(at -2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "V+_1_0"
-				(polyline
-					(pts
-						(xy -0.889 -1.27) (xy 0.889 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.127) (xy -0.889 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -1.27) (xy 0 0.127)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "diff-probe-eagle-import:V-"
 			(power)
 			(exclude_from_sim no)
@@ -2479,12 +2363,6 @@
 		(uuid "4bbd21ed-3c23-430e-817c-585f4272f3f8")
 	)
 	(junction
-		(at 78.74 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "516195b6-eff2-489d-a118-4eaa0c1af504")
-	)
-	(junction
 		(at 199.39 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2726,16 +2604,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 123.19) (xy 101.6 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bee1700-881d-448c-be01-5a83092c0a36")
-	)
-	(wire
-		(pts
 			(xy 35.56 149.86) (xy 35.56 154.94)
 		)
 		(stroke
@@ -2753,26 +2621,6 @@
 			(type default)
 		)
 		(uuid "13c865ec-c28a-465b-949f-89a2d5b34aea")
-	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 78.74 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b6a088-e29e-4f65-bb62-fd783c1ab88e")
-	)
-	(wire
-		(pts
-			(xy 67.31 146.05) (xy 67.31 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19aa0823-5e5b-4255-a91d-7d552bc0be1f")
 	)
 	(wire
 		(pts
@@ -2816,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 123.19) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc731fb-c391-4293-98d4-da44ce23b68d")
+	)
+	(wire
+		(pts
 			(xy 162.56 148.59) (xy 162.56 147.32)
 		)
 		(stroke
@@ -2823,16 +2681,6 @@
 			(type default)
 		)
 		(uuid "21491966-3c4c-414a-8ddc-0c7176ddff87")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22abab2e-9885-4da7-9852-348f356dd096")
 	)
 	(wire
 		(pts
@@ -2876,16 +2724,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 125.73) (xy 67.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28fb9e47-8674-470a-86b7-de7f3360a5a3")
-	)
-	(wire
-		(pts
 			(xy 69.85 156.21) (xy 80.01 156.21)
 		)
 		(stroke
@@ -2923,6 +2761,16 @@
 			(type default)
 		)
 		(uuid "31d127b8-e8f8-47b6-acc4-5f7197d756d8")
+	)
+	(wire
+		(pts
+			(xy 67.31 146.05) (xy 67.31 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334d844e-22d7-4b48-a771-45fa290cd6de")
 	)
 	(wire
 		(pts
@@ -3126,6 +2974,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 143.51) (xy 101.6 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1aa52d-336c-4965-8055-4ddcbabe82cd")
+	)
+	(wire
+		(pts
 			(xy 153.67 146.05) (xy 153.67 147.32)
 		)
 		(stroke
@@ -3183,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "6379d796-fde8-4fc2-a7de-54f0c52cfb11")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fdb759-66af-4cff-a9f1-90761ed6e6de")
 	)
 	(wire
 		(pts
@@ -3846,16 +3714,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 143.51) (xy 101.6 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef03ee9b-2645-4a02-a6f7-627e26656805")
-	)
-	(wire
-		(pts
 			(xy 52.07 104.14) (xy 87.63 104.14)
 		)
 		(stroke
@@ -4014,6 +3872,16 @@
 		)
 		(uuid "1c6e452a-3519-4b92-98f5-9c74f0717054")
 	)
+	(label "V-"
+		(at 67.31 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f39264-d358-4b65-9fff-d8a07a7f20b7")
+	)
 	(label "Pad_N"
 		(at 28.702 106.68 0)
 		(effects
@@ -4024,6 +3892,16 @@
 		)
 		(uuid "35505c17-306b-4361-9895-a67ced902f2d")
 	)
+	(label "V+"
+		(at 101.6 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3550d045-5347-4a27-8f0f-d38220f2645a")
+	)
 	(label "IN_P"
 		(at 52.07 104.14 0)
 		(effects
@@ -4033,6 +3911,26 @@
 			(justify left bottom)
 		)
 		(uuid "363b8f67-740c-4671-ae42-143e2627bd6b")
+	)
+	(label "V+"
+		(at 67.31 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43fcc97f-711a-4ddf-a56f-85c295ee1c5b")
+	)
+	(label "V-"
+		(at 101.6 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b371932e-1367-4766-83ba-2168bb15e6d4")
 	)
 	(label "Pad_P"
 		(at 28.702 104.14 0)
@@ -4054,6 +3952,26 @@
 		)
 		(uuid "d5a3c724-963f-4c7f-a841-d28af618768a")
 	)
+	(label "V+"
+		(at 99.06 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2874f98-5023-4900-a515-8fd559b056b2")
+	)
+	(label "V-"
+		(at 99.06 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f28d55e3-a803-4727-a056-3608a08386f7")
+	)
 	(rule_area
 		(polyline
 			(pts
@@ -4066,7 +3984,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a51eeb1d-f095-434a-b46c-8dcac77c1757)
+			(uuid fa67718d-350b-4aad-b3ae-f13c96101de2)
 		)
 	)
 	(netclass_flag ""
@@ -5210,7 +5128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\RWache\\OneDrive - Rockwell Automation, Inc\\Mrf data\\model\\OPA847.lib"
+		(property "Sim.Library" "OPA847.lib"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -5292,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 67.31 157.7975 0)
 			(effects
 				(font
@@ -5746,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 104.14 157.7975 0)
 			(effects
 				(font
@@ -6199,7 +6117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 87.63 140.0175 0)
 			(effects
 				(font
@@ -6497,72 +6415,6 @@
 			(project ""
 				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diff-probe-eagle-import:V+")
-		(at 78.74 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30fd19cc-dd08-4ddd-84cf-093d62583aef")
-		(property "Reference" "#P+01"
-			(at 78.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V+"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6704ad01-cf89-4b27-8603-73aafb860f15")
-		)
-		(instances
-			(project ""
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P+01")
 					(unit 1)
 				)
 			)
@@ -10140,72 +9992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diff-probe-eagle-import:V-")
-		(at 67.31 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6665ce2f-9fc0-43f1-86a7-4a3389364348")
-		(property "Reference" "#P-02"
-			(at 67.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V-"
-			(at 67.31 154.94 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ff33339-a7cc-466b-ac1b-6e65a9a1dda9")
-		)
-		(instances
-			(project "diff-probe"
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P-02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA847xDBV")
 		(at 69.85 138.43 0)
 		(unit 1)
@@ -10260,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\RWache\\OneDrive - Rockwell Automation, Inc\\Mrf data\\model\\OPA847.lib"
+		(property "Sim.Library" "OPA847.lib"
 			(at 69.85 138.43 0)
 			(effects
 				(font
@@ -10709,72 +10495,6 @@
 			(project "diff-probe"
 				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diff-probe-eagle-import:V-")
-		(at 101.6 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78d54c59-adac-4aef-859f-3f60eb9376a4")
-		(property "Reference" "#P-03"
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V-"
-			(at 101.6 153.67 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed01af35-643b-4e38-ab9d-07d2272ac4ce")
-		)
-		(instances
-			(project "diff-probe"
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P-03")
 					(unit 1)
 				)
 			)
@@ -13059,72 +12779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diff-probe-eagle-import:V+")
-		(at 67.31 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa09ee80-a2d0-4ea9-b56c-9e27fccb0cfa")
-		(property "Reference" "#P+02"
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V+"
-			(at 67.31 120.65 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2aa50633-0cc5-4051-be61-ae3143385ec2")
-		)
-		(instances
-			(project "diff-probe"
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P+02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 54.61 168.91 0)
 		(mirror x)
@@ -13143,7 +12797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 56.1975 167.64 0)
 			(effects
 				(font
@@ -14339,7 +13993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 49.53 102.5525 0)
 			(effects
 				(font
@@ -15993,71 +15647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diff-probe-eagle-import:V-")
-		(at 78.74 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d401a5e0-26ac-4af8-92d1-96a0ecd94015")
-		(property "Reference" "#P-01"
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V-"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b498093-59e6-4f9d-97d9-1f6f672ad5e7")
-		)
-		(instances
-			(project ""
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P-01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
 		(at 35.56 121.92 0)
 		(unit 1)
@@ -16743,72 +16332,6 @@
 			(project "diff-probe"
 				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
 					(reference "V5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "diff-probe-eagle-import:V+")
-		(at 101.6 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9dd5bf1-6be2-444c-8a24-1e84d1fc9ae7")
-		(property "Reference" "#P+03"
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V+"
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9b049d4-986c-456b-925a-c59cedc94223")
-		)
-		(instances
-			(project "diff-probe"
-				(path "/e47adf3d-9c24-4345-80c9-66679cad107e"
-					(reference "#P+03")
 					(unit 1)
 				)
 			)
